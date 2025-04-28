@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pabrik Gula Uncut</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+    }
+
+    header {
+      background-color: #111;
+      padding: 15px 20px;
+      box-shadow: 0 2px 5px rgba(255, 0, 0, 0.3);
+      border-bottom: 2px solid #b30000;
+    }
+
+    header h1 {
+      font-size: 26px;
+      color: #e50914;
+      letter-spacing: 2px;
+      text-shadow: 0 0 5px #e50914;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    }
+
+    .movie-info {
+      display: flex;
+      gap: 15px;
+    }
+
+    .poster {
+      flex: 1;
+    }
+
+    .poster img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease, filter 0.3s ease;
+      filter: brightness(0.8) contrast(1.2);
+    }
+
+    .poster img:hover {
+      transform: scale(1.05);
+      filter: brightness(1) contrast(1.4);
+    }
+
+    .details {
+      flex: 2;
+    }
+
+    .details h2 {
+      margin-bottom: 10px;
+      color: #ff4444;
+      text-shadow: 1px 1px 4px #800000;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin-bottom: 15px;
+    }
+
+    td {
+      padding: 4px 8px;
+      vertical-align: top;
+      color: #ccc;
+    }
+
+    td:first-child {
+      white-space: nowrap;
+      font-weight: bold;
+      color: #ff6666;
+    }
+
+    .synopsis {
+      margin-top: 15px;
+    }
+
+    .synopsis h3 {
+      margin-bottom: 5px;
+      color: #ff4d4d;
+      text-shadow: 0 0 3px #990000;
+    }
+
+    .synopsis p {
+      line-height: 1.6;
+      color: #d0d0d0;
+    }
+
+    .trailer-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background-color: #8b0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 10px #e50914;
+    }
+
+    .trailer-button:hover {
+      background-color: #b30000;
+      box-shadow: 0 0 15px #ff1a1a;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NOW PLAYING</h1>
+  </header>
+  <main>
+    <div class="movie-info">
+      <div class="poster">
+        <a href="https://21cineplex.com/" target="_blank">
+          <img src="pabrikgulauncut.jpg" alt="Pabrik Gula Uncut Poster" />
+        </a>
+      </div>
+      <div class="details">
+        <h2>Pabrik Gula Uncut</h2>
+        <table> 
+          <tr>
+		  <td>Jenis Film</td>
+		  <td>: Horor</td>
+		  </tr>
+          <tr>
+		  <td>Produser</td>
+		  <td>: Manoj Punjabi</td>
+		  </tr>
+          <tr>
+		  <td>Sutradara</td>
+		  <td>: Awi Suryadi</td>
+		  </tr>
+          <tr>
+		  <td>Penulis</td>
+		  <td>: Lele Laila</td>
+		  </tr>
+          <tr>
+		  <td>Produksi</td>
+		  <td>: MD Pictures</td>
+		  </tr>
+          <tr>
+		  <td>Cast</td>
+		  <td>: Arbani Yazis, Ersya Aurelia, Erika Carlina, Bukie B. Mansyur, Wavi Zihan, Moch. Arif Alfiansyah, Benidictus Siregar, Sadana Agung, Yono Bakrie, Vonny Anggraini, Budi Ros, Dewi Pakis, Azela Putri</td>
+		  </tr>
+        </table>
+        <div class="synopsis">
+          <h3>Sinopsis</h3>
+          <p>
+            Endah (Ersya Aurelia), Fadhil (Arbani Yasiz), Dwi (Arif Alfiansyah), Hendra (Bukie B. Mansyur), Wati (Wavi Zihan), Naning (Erika Carlina), dan Franky (Benidictus Siregar) berangkat bersama puluhan orang lainnya ke sebuah pabrik gula untuk menjadi buruh musiman. Awalnya semua berjalan wajar tanpa keanehan. Sampai suatu malam, Endah terbangun dan keluar dari mes tempatnya menginap demi membuntuti sosok misterius. Sejak kejadian malam itu, para buruh mulai mengalami teror yang terus meningkat. Kemudian terungkap bahwa pabrik tersebut berdampingan dengan kerajaan demit. Mereka menuntut nyawa para buruh.
+          </p>
+          <a href="https://www.youtube.com/watch?v=nzDT9N1Ud_U" target="_blank" class="trailer-button">Tonton Trailer</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html> 
+
